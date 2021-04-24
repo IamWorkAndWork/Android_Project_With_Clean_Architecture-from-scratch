@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_user_not_found">Current User Not Found</string>
+    <string name="can_not_sign_in">Can Not Sign In</string>
+    <string name="can_not_sign_up">Can Not Sign Up</string>
+    <string name="can_not_sign_out">Can Not Sign out</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph_nav_main">
+
+    <fragment
+        android:id="@+id/fragmentGettingStarted"
+        android:name="app.project.ui.state.GettingStartedFragment"
+        android:label="Introduction" />
+
+    <fragment
+        android:id="@+id/fragmentIntroduction"
+        android:name="app.project.ui.state.IntroductionFragment"
+        android:label="Introduction" />
+
+    <fragment
+        android:id="@+id/fragmentSignIn"
+        android:name="app.project.ui.state.SignInFragment"
+        android:label="Sign In" />
+
+    <fragment
+        android:id="@+id/fragmentSignUp"
+        android:name="app.project.ui.state.SignupFragment"
+        android:label="Sign Up" />
+
+    <fragment
+        android:id="@+id/fragmentNewsFeed"
+        android:name="app.project.ui.tabs.NewsFeedFragment"
+        android:label="@string/label_fragment_news_feed" />
+
+    <fragment
+        android:id="@+id/fragmentConnection"
+        android:name="app.project.ui.state.MessageFragment"
+        android:label="@string/label_fragment_connection" />
+
+    <fragment
+        android:id="@+id/fragmentPost"
+        android:name="app.project.ui.tabs.PostFragment"
+        android:label="@string/label_fragment_post" />
+
+    <fragment
+        android:id="@+id/fragmentNotification"
+        android:name="app.project.ui.tabs.NotificationFragment"
+        android:label="@string/label_fragment_notification" />
+
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="app.project.ui.state.ProfileFragment"
+        android:label="@string/label_fragment_profile" />
+
+</navigation>
